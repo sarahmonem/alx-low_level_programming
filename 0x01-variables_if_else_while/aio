@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Please enter commit massege:"
+read msg
+git add .
+git commit -m "$msg"
