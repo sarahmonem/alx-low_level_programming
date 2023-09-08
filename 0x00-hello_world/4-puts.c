@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- *
- * using puts
- *
+ *using puts
  */
 int main(void)
 {
