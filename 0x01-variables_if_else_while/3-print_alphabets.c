@@ -13,11 +13,16 @@
 int main(void)
 {
 	char ch = 'a';
-
+	char chcap = 'A';
 	while (ch <= 'z')
 	{
 	putchar (ch);
 	ch++;
+	}
+	while (ch <= 'Z')
+	{
+	putchar (chcap);
+	chcap++;
 	}
 	putchar ('\n');
 	return (0);
