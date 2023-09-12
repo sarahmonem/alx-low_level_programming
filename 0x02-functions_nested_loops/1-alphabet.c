@@ -9,13 +9,11 @@
  * Return: Alway 0 (success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int ch;
 
-	for (ch = 'a'; ch <= 'z', ch++)
-		print_alphabet(_putchar(ch));
-	_putchar ('\n');
-
-	return (0);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
+	_putchar('\n');
 }
