@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -14,8 +13,9 @@ int main(void)
 	char str[] = "_putchar";
 	int charac;
 	
-	for(charac = 0; charac < 8; charac++)
+	for (charac = 0; charac < 8; charac++)
 	_putchar(str[charac]);
 		_putchar('\n');
-	return(0);
+
+	return (0);
 }
