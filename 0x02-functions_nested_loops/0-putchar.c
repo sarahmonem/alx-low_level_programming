@@ -14,8 +14,8 @@ int main(void)
 	int charac;
 	
 	for (charac = 0; charac < 8; charac++)
-	_putchar(str[charac]);
-		_putchar('\n');
+		_putchar(str[charac]);
+	_putchar('\n');
 
 	return (0);
 }
