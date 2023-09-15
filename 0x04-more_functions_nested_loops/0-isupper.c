@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,6 +7,7 @@
  *
  * Return: 1 if it is uppercase and 0 if it is not
  */
+
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
