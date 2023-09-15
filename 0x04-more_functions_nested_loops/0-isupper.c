@@ -6,13 +6,13 @@
  *
  * _isupper: check if ch is uppercase
  *
- *@c: input character
+ *@ch: input character
  *
  *Return: return1 if ch is upper and 0 if else
  */
-int _isupper(int c)
+int _isupper(int ch)
 {
-	if (c >= 65 && c <= 90)
+	if (ch >= 65 && ch <= 90)
 		return (1);
 	else
 		return (0);
