@@ -13,13 +13,8 @@
 
 int _isupper(int ch)
 {
-	if (isupper(ch))
-	{
+	if (ch >= 65 && ch <= 90)
 		return(1);
-	}
 	else
-	{
 		return(0);
-	}
-	return (0)
 }
