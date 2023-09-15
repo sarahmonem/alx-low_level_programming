@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit: check if c is digit
+ * _isdigit - check if c is digit between 0 and 9
  *
  *@c: input digit
  *
