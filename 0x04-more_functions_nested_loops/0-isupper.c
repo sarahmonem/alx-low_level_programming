@@ -15,11 +15,11 @@ int _isupper(int ch)
 {
 	if (isupper(ch))
 	{
-		printf(1);
+		return(1);
 	}
 	else
 	{
-		printf(0);
+		return(0);
 	}
 	return (0)
 }
