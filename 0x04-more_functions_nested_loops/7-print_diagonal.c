@@ -5,7 +5,7 @@
  *
  * @n: input
 */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i, space;
 
