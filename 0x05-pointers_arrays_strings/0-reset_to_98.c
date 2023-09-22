@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _reset_to_98 - function take pointer and change the value that it take
+ * reset_to_98 - takes pointer and change the value that it take
  *
  * @n : is a pointer
  */
