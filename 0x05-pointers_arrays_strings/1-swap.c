@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * swipe - swape between two integers
+ * swap - swap between two integers
  *
  */
 
-void swap_int(int *a, int *b){
+void swap_int(int *a, int *b)
+{
 
 	*a = *b;
 	*b = *a;
+}
