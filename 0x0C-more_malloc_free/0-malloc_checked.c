@@ -2,7 +2,7 @@
 
 /**
  * *malloc_checked - allocate memory usingmalloc  and exit if fail
- * @b: in
+ * @b: int
  * Return: pointer to the array initilized or NULL
  */
 
