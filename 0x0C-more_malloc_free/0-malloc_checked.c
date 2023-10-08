@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *malloc_check - allocate memory using and exit if fail
+ * *malloc_checked - allocate memory usingmalloc  and exit if fail
  * @b: in
  * Return: pointer to the array initilized or NULL
  */
